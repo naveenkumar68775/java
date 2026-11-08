@@ -71,27 +71,47 @@
 
 //     }
 // }
-class thunder{
+// class thunder{
     
-    static int a=10;
-    static int b=20;
-    thunder(){
-        System.out.print("hello");
+//     static int a=10;
+//     static int b=20;
+//     thunder(){
+//         System.out.print("hello");
+//     }
+//     catch(ArithmeticException e){
+//         System.out.print("error");
+//     }
+// }
+// class Rev{
+//     public static void main(String[]args){
+//         // try{
+//         //     int a=10;
+//         //     int b=0;
+//         //     int c=a/b;
+//         //     System.out.print(c);
+//         // }
+//         // catch(ArithmeticException e){
+//         //     System.out.print("error");
+//         // }
+//     }
+// }
+
+class name {
+    void thunder(int a,int b){
+        System.out.print(a+b);
     }
-    catch(ArithmeticException e){
-        System.out.print("error");
+    void thunder(int a,int b,int c){
+        System.out.print(a+b+c);
     }
 }
+
 class Rev{
-    public static void main(String[]args){
-        // try{
-        //     int a=10;
-        //     int b=0;
-        //     int c=a/b;
-        //     System.out.print(c);
-        // }
-        // catch(ArithmeticException e){
-        //     System.out.print("error");
-        // }
+    public static void main(String []args){
+        
+        name n=new name();
+        n.thunder(10,20);
+        System.out.print("\n");
+        n.thunder(10,20,30);
+
     }
 }
