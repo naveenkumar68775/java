@@ -51,9 +51,14 @@ class thunder{
     static int b=20;
 
 }
+class naveen extends thunder{
+    int c=30;
+    int d=40;
+}
 class Rev{
     public static void main(String[]args){
-        
+        naveen v=new naveen();
+        System.out.print(v.c+v.d+"\n");
         System.out.print(thunder.a+thunder.b);
 
     }
