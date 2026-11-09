@@ -96,22 +96,35 @@
 //     }
 // }
 
-class name {
-    void thunder(int a,int b){
-        System.out.print(a+b);
-    }
-    void thunder(int a,int b,int c){
-        System.out.print(a+b+c);
-    }
-}
+// class name {
+//     void thunder(int a,int b){
+//         System.out.print(a+b);
+//     }
+//     void thunder(int a,int b,int c){
+//         System.out.print(a+b+c);
+//     }
+// }
 
-class Rev{
-    public static void main(String []args){
+// class Rev{
+//     public static void main(String []args){
         
-        name n=new name();
-        n.thunder(10,20);
-        System.out.print("\n");
-        n.thunder(10,20,30);
+//         name n=new name();
+//         n.thunder(10,20);
+//         System.out.print("\n");
+//         n.thunder(10,20,30);
 
+//     }
+// }
+
+class thunder{
+    thunder(){
+        System.out.print("hello");
+    }
+
+}
+class Rev{
+    public static void main(String[]args){
+        thunder t=new thunder();
+        System.out.print(t instanceof thunder);
     }
 }
