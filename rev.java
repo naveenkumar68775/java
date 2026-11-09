@@ -116,15 +116,22 @@
 //     }
 // }
 
+// class thunder{
+//     thunder(){
+//         System.out.print("hello");
+//     }
+
+// }
+// class Rev{
+//     public static void main(String[]args){
+//         thunder t=new thunder();
+//         System.out.print(t instanceof thunder);
+//     }
+// }
 class thunder{
+    int a=10;
+    int b=20;
     thunder(){
         System.out.print("hello");
-    }
-
-}
-class Rev{
-    public static void main(String[]args){
-        thunder t=new thunder();
-        System.out.print(t instanceof thunder);
     }
 }
