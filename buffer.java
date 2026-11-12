@@ -10,9 +10,17 @@
     
 // }
 
+// class buffer{
+//     public static void main (String []args){
+//         String n="Thunder";
+//         System.out.println(n);
+//     }
+// }
+
 class buffer{
-    public static void main (String []args){
-        String n="Thunder";
-        System.out.println(n);
+    public static void main(String args[]){
+        StringBuffer sb=new StringBuffer("Hello");
+        sb.append(" World");
+        System.out.println(sb);
     }
 }
