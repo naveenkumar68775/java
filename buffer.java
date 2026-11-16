@@ -33,11 +33,15 @@
 //     }
 // }
 
+// class buffer{
+//     public static void main(String args[]){
+//         String n="Thunder";
+//         StringBuffer sb=new StringBuffer(n);
+//         sb.reverse();
+//         System.out.println(sb);
+//     }
+// }
+
 class buffer{
-    public static void main(String args[]){
-        String n="Thunder";
-        StringBuffer sb=new StringBuffer(n);
-        sb.reverse();
-        System.out.println(sb);
-    }
+    
 }
