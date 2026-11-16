@@ -42,6 +42,18 @@
 //     }
 // }
 
+class thunder{
+    int n;
+    thunder(int n){
+        this.n=n;
+    }
+}
+
 class buffer{
-    
+    public static void main(String args[]){
+        
+        thunder t=new thunder(10);
+        System.out.println(t.n);
+        
+    }
 }
