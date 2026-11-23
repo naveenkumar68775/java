@@ -55,5 +55,7 @@ class oop1{
         System.out.println(t1.age);
         System.out.println(t1.breed);
         t1.bark();
+        sound(t1);
+        
     }
 }
