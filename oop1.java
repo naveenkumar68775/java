@@ -76,6 +76,10 @@ class once{
 
 class oop1{
     public static void sound(thunder t){
-        t.bark();
+        int n=12345;
+        while(n>0){
+            System.out.println(t.name);
+            n--;
+        }
     }
 }
