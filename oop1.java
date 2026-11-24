@@ -59,7 +59,23 @@
         
 //     }
 // }
+class once{
+    public static void main(String []args){
+        thunder t1 = new thunder();
+        t1.name = "Thunder";
+        t1.age = 3;
+        t1.breed = "Labrador";  
+        System.out.println(t1.name);
+        System.out.println(t1.age);
+        System.out.println(t1.breed);
+        t1.bark();
+        sound(t1);
+        
+    }
+}
 
 class oop1{
-    
+    public static void sound(thunder t){
+        t.bark();
+    }
 }
